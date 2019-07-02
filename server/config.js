@@ -1,6 +1,6 @@
 const WebSocketServer = require ("ws").Server;
 
-const server = new WebSocketServer({port: 8000})
+const server = new WebSocketServer({port: 8080})
 
 server.on("connection", conn =>{
     console.log("Server Connected")
