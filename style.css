@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    background:url("3d-tetris-background-and-space-wallpaper-960x600-89_1.jpg") no-repeat center;
+    background-size: cover; 
+    overflow: hidden;
+    height: 100%;
+    text-align: center;
+}
+
+.player {
+    flex: 1 1 auto;
+}
+
+.tetris {
+    border: 2px solid white;
+}
+
+.userScore {
+    color: white;
+    
+}
